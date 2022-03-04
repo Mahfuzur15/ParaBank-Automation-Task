@@ -1,4 +1,4 @@
-package model;
+package utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;

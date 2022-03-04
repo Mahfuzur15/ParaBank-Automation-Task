@@ -1,14 +1,16 @@
 package page;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import model.CommonMethods;
+import utilities.CommonMethods;
 
 public class P005_TransferFundspage extends CommonMethods {
 	
 //	Tranasfer Funds 
-	 public static By tranasferFundclick = By.xpath("//a[normalize-space()='Transfer Funds']");
+	 public static By tranasferFundClick = By.xpath("//a[normalize-space()='Transfer Funds']");
 	
 	 public static By amountFillUp = By.xpath("//input[@id='amount']");
 	 public static By fromAccountSelect = By.xpath("//select[@id='fromAccountId']");
@@ -21,26 +23,35 @@ public class P005_TransferFundspage extends CommonMethods {
 		
 //		Tranasfer Funds
 		
-		public void clickTranasferFund (By element) {
-			driver.findElement(element).click();
-		}
-		
-		public void amountSend (By element, String amount) {
-			driver.findElement(element).sendKeys(amount);
-		}
-		
-		public void fromAccount(int value) {   // by er poriborte Webelement likhci
+		public void clickTranasferFund () {
 			
-			selectValue(tranasferFundclick, value);
+			WebDriverWait wait = new WebDriverWait(driver,30);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(tranasferFundClick));
+			
+			driver.findElement(tranasferFundClick).click();
+			driver.findElement(tranasferFundClick).click();
 		}
 		
-		public void toAccount(By btn, int value) {
-			selectValue(tranasferFundclick, value);
+		public void amountSend (String amount) {
+			
+			WebDriverWait wait = new WebDriverWait(driver,30);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(amountFillUp));
+			sendText(amountFillUp, amount);
 		}
 		
-		public void submitAccountTranasfer(By btn) {
-			driver.findElement(btn).click();
+		public void fromAccount(int value) {   
+			
+		
+			selectValue(fromAccountSelect, value);
 		}
-
+		
+		public void toAccount(int value) {
+			selectValue(toAccountSelect, value);
+		}
+		
+		public void submitAccountTranasfer() {
+			driver.findElement(submitAccount).click();
+		}
+		
 
 }

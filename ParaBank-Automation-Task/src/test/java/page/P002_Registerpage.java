@@ -2,7 +2,7 @@ package page;
 
 import org.openqa.selenium.By;
 
-import model.CommonMethods;
+import utilities.CommonMethods;
 
 public class P002_Registerpage extends CommonMethods {
 	

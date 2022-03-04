@@ -3,7 +3,7 @@ package page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
-import model.CommonMethods;
+import utilities.CommonMethods;
 
 public class P004_OpenNewAccountpage extends CommonMethods{
 	
@@ -16,6 +16,7 @@ public class P004_OpenNewAccountpage extends CommonMethods{
 
 	
 	public void accountTypeByIndex(int value) {
+		driver.findElement(openAccountClick).click();
 		selectValue(accountTypeSelect, value);
 	}
 	
