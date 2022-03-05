@@ -10,60 +10,72 @@ import page.P003_LogInpage;
 import page.P004_OpenNewAccountpage;
 import page.P005_TransferFundspage;
 import page.P006_FindTransactionpage;
+import page.P007_ContactInfoUpdatepage;
+import utilities.Timeout;
 
 public class TC001_Test extends BaseDriver{
 	
-	P001_Homepage page = new P001_Homepage();
-	P002_Registerpage page2 = new P002_Registerpage();
-	P003_LogInpage page3 = new P003_LogInpage();
-	P004_OpenNewAccountpage page4 = new P004_OpenNewAccountpage();
-	P005_TransferFundspage page5 = new P005_TransferFundspage();
-	P006_FindTransactionpage page6 = new P006_FindTransactionpage();
+	P001_Homepage homePage = new P001_Homepage();
+	P002_Registerpage registerPage = new P002_Registerpage();
+	P003_LogInpage loginPage = new P003_LogInpage();
+	P004_OpenNewAccountpage openNewAccountPage = new P004_OpenNewAccountpage();
+	P005_TransferFundspage transferFundPage = new P005_TransferFundspage();
+	P006_FindTransactionpage findTransactionPage = new P006_FindTransactionpage();
+	P007_ContactInfoUpdatepage contactInfoUpdatePage = new P007_ContactInfoUpdatepage();
+	Timeout time = new Timeout();
 	@Test
 	public void test1 () {
-		System.out.println(page.getTitle());
-		System.out.println(page.currentPageUrl());
-		page.registerclick();
+		System.out.println(homePage.getTitle());
+		System.out.println(homePage.currentPageUrl());
+		homePage.registerclick();
 		
 		
-//		page2.registerAccount("Mahfuz", "Tushar", "College road, Chowmuhani", "Noakhali", "Chittagong", "1206", "0161179", "454-354", "tu66", "12345", "12345");
+//		registerPage.registerAccount("Mahfuz", "Tushar", "College road, Chowmuhani", "Noakhali", "Chittagong", "1206", "0161179", "454-354", "tu66", "12345", "12345");
 		
-		System.out.println(page2.getTitle());
-		System.out.println(page2.currentPageUrl());
+		System.out.println(registerPage.getTitle());
+		System.out.println(registerPage.currentPageUrl());
 		
-		page.registerclick();
+//		homePage.registerclick();
 		
-//		page2.registerAccount("Arif", "Rahman", "Doctor para, Chowmuhani", "Munsigonj", "Dhaka", "1208", "0192365", "33-564", "ar68", "1234", "1234");
+//		registerPage.registerAccount("Arif", "Rahman", "Doctor para, Chowmuhani", "Munsigonj", "Dhaka", "1208", "0192365", "33-564", "ar68", "1234", "1234");
 		
-		System.out.println(page3.getTitle());
-		System.out.println(page3.currentPageUrl());
+		System.out.println(loginPage.getTitle());
+		System.out.println(loginPage.currentPageUrl());
 		
-		page3.logIn("ar68", "1234");
+		loginPage.logIn("ar68", "1234");
 		
-		page4.accountTypeByIndex(0);
-		page4.accountSubmitClick();
 		
-		page4.accountTypeByIndex(1);
+		// Open New Account
+		openNewAccountPage.accountTypeByIndex(0);
+		openNewAccountPage.accountSubmitClick();
 		
-		page4.accountSubmitClick();
-		page4.accountTypeByIndex(0);
-		page4.accountSubmitClick();
+		openNewAccountPage.accountTypeByIndex(1);
+		
+		openNewAccountPage.accountSubmitClick();
+		openNewAccountPage.accountTypeByIndex(0);
+		openNewAccountPage.accountSubmitClick();
 		
 		// transfer fund
 		
-		page5.clickTranasferFund();
-		page5.amountSend("30");
-		page5.fromAccount(0);
-		page5.toAccount(1);
-		page5.submitAccountTranasfer();
+		transferFundPage.clickTranasferFund();
+		time.timeout();
+		transferFundPage.amountSend("30");
+		time.timeout();
+		transferFundPage.fromAccount(0);
+		transferFundPage.toAccount(1);
+		transferFundPage.submitAccountTranasfer();
 	
 		
 		// Find Transactions 
-		page6.findTransactionById(0, "233456");
+		findTransactionPage.findTransactionById(0, "233456");
+		findTransactionPage.findTransactionByDate(0, "03-05-2022");
 		
 		
-		
-		
+	
+		time.timeout();
+		contactInfoUpdatePage.updateAccountClick();
+		time.timeout();
+		contactInfoUpdatePage.updateAccount("798161");
 		
 	}
 	
