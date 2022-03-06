@@ -5,8 +5,13 @@
     <classes>
       <class name="test.TC001_Test">
         <methods>
-          <include name="test1"/>
+          <include name="logIn"/>
+          <include name="findTransaction"/>
+          <include name="infoUpdate"/>
+          <include name="tranasferFund"/>
           <include name="setup"/>
+          <include name="registrationTest"/>
+          <include name="openNewacount"/>
         </methods>
       </class> <!-- test.TC001_Test -->
     </classes>

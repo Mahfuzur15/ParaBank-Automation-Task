@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-05T20:37:44 BDT" name="Default suite" finished-at="2022-03-05T20:38:00 BDT" duration-ms="15974">
+  <suite started-at="2022-03-06T21:03:29 BDT" name="Default suite" finished-at="2022-03-06T21:03:58 BDT" duration-ms="29205">
     <groups>
     </groups>
-    <test started-at="2022-03-05T20:37:44 BDT" name="Default test" finished-at="2022-03-05T20:38:00 BDT" duration-ms="15974">
+    <test started-at="2022-03-06T21:03:29 BDT" name="Default test" finished-at="2022-03-06T21:03:58 BDT" duration-ms="29205">
       <class name="test.TC001_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_Test@16d04d3d]" started-at="2022-03-05T20:37:35 BDT" name="setup" finished-at="2022-03-05T20:37:44 BDT" duration-ms="9021" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:07 BDT" name="setup" finished-at="2022-03-06T21:03:29 BDT" duration-ms="21468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:test.TC001_Test@16d04d3d]" started-at="2022-03-05T20:37:44 BDT" name="test1" finished-at="2022-03-05T20:38:00 BDT" duration-ms="15901" status="PASS">
+        <test-method signature="registrationTest()[pri:0, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:29 BDT" name="registrationTest" finished-at="2022-03-06T21:03:38 BDT" duration-ms="9246" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
+        </test-method> <!-- registrationTest -->
+        <test-method signature="logInTest()[pri:1, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:38 BDT" name="logInTest" finished-at="2022-03-06T21:03:40 BDT" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method signature="openNewAccountTest()[pri:2, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:40 BDT" name="openNewAccountTest" finished-at="2022-03-06T21:03:43 BDT" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewAccountTest -->
+        <test-method signature="tranasferFundTest()[pri:3, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:43 BDT" name="tranasferFundTest" finished-at="2022-03-06T21:03:50 BDT" duration-ms="6651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tranasferFundTest -->
+        <test-method signature="findTransactionTest()[pri:4, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:50 BDT" name="findTransactionTest" finished-at="2022-03-06T21:03:53 BDT" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTransactionTest -->
+        <test-method signature="infoUpdateTest()[pri:5, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:53 BDT" name="infoUpdateTest" finished-at="2022-03-06T21:03:58 BDT" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoUpdateTest -->
       </class> <!-- test.TC001_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

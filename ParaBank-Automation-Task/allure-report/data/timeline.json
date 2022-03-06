@@ -1,0 +1,115 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-ISIJ8S4",
+    "children" : [ {
+      "name" : "16672@DESKTOP-ISIJ8S4.main(1)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "7ed33daf6266d34",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579018999,
+          "stop" : 1646579020907,
+          "duration" : 1908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openNewAccountTest",
+        "uid" : "fa12ceed976de177",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579021011,
+          "stop" : 1646579023506,
+          "duration" : 2495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "findTransactionTest",
+        "uid" : "2d6cde312282638f",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579030173,
+          "stop" : 1646579033794,
+          "duration" : 3621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tranasferFundTest",
+        "uid" : "e612244edfca4c52",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579023520,
+          "stop" : 1646579030164,
+          "duration" : 6644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "ab38ebe7e6fa6c14",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579009424,
+          "stop" : 1646579018460,
+          "duration" : 9036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "infoUpdateTest",
+        "uid" : "c13dbdd4d4906e28",
+        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646579033807,
+          "stop" : 1646579038231,
+          "duration" : 4424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "974e19796ba3dfb79d7c130cc054e9c8"
+    } ],
+    "uid" : "b8eb09c4bcd4fa6fd0d2252761e3be86"
+  } ]
+}

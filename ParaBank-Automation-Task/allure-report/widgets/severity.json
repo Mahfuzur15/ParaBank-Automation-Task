@@ -1,0 +1,61 @@
+[ {
+  "uid" : "e612244edfca4c52",
+  "name" : "tranasferFundTest",
+  "time" : {
+    "start" : 1646579023520,
+    "stop" : 1646579030164,
+    "duration" : 6644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa12ceed976de177",
+  "name" : "openNewAccountTest",
+  "time" : {
+    "start" : 1646579021011,
+    "stop" : 1646579023506,
+    "duration" : 2495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c13dbdd4d4906e28",
+  "name" : "infoUpdateTest",
+  "time" : {
+    "start" : 1646579033807,
+    "stop" : 1646579038231,
+    "duration" : 4424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d6cde312282638f",
+  "name" : "findTransactionTest",
+  "time" : {
+    "start" : 1646579030173,
+    "stop" : 1646579033794,
+    "duration" : 3621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed33daf6266d34",
+  "name" : "logInTest",
+  "time" : {
+    "start" : 1646579018999,
+    "stop" : 1646579020907,
+    "duration" : 1908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab38ebe7e6fa6c14",
+  "name" : "registrationTest",
+  "time" : {
+    "start" : 1646579009424,
+    "stop" : 1646579018460,
+    "duration" : 9036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,111 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.TC001_Test",
+    "children" : [ {
+      "name" : "registrationTest",
+      "uid" : "ab38ebe7e6fa6c14",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579009424,
+        "stop" : 1646579018460,
+        "duration" : 9036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "7ed33daf6266d34",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579018999,
+        "stop" : 1646579020907,
+        "duration" : 1908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openNewAccountTest",
+      "uid" : "fa12ceed976de177",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579021011,
+        "stop" : 1646579023506,
+        "duration" : 2495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "tranasferFundTest",
+      "uid" : "e612244edfca4c52",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579023520,
+        "stop" : 1646579030164,
+        "duration" : 6644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "findTransactionTest",
+      "uid" : "2d6cde312282638f",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579030173,
+        "stop" : 1646579033794,
+        "duration" : 3621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "infoUpdateTest",
+      "uid" : "c13dbdd4d4906e28",
+      "parentUid" : "f53edc03f9bdf1c4a8273bf208b246da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646579033807,
+        "stop" : 1646579038231,
+        "duration" : 4424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.TC001_Test"
+  } ]
+}

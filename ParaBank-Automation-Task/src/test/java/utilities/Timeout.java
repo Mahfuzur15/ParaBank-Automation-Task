@@ -2,10 +2,10 @@ package utilities;
 
 public class Timeout {
 
-public void timeout() {
+public void timeout(int value) {
 		
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(value);
 		}  catch (InterruptedException e) {
 			e.printStackTrace();
 		}

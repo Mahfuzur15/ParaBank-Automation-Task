@@ -6,12 +6,13 @@ import utilities.CommonMethods;
 
 public class P003_LogInpage extends CommonMethods{
 
-	// Login Username & Password
+	
 	public static By userName = By.xpath("//input[@name='username']");
 	public static By password = By.xpath("//input[@name='password']");
 	// Click Login Button
 	public static By clicklogin = By.xpath("//input[@value='Log In']");
 	
+	// Login Username & Password
 	public void logIn (String username, String pass) {
 		sendText(userName, username);
 		sendText(password, pass);
