@@ -4,33 +4,16 @@
   "children" : [ {
     "name" : "DESKTOP-ISIJ8S4",
     "children" : [ {
-      "name" : "16672@DESKTOP-ISIJ8S4.main(1)",
+      "name" : "8760@DESKTOP-ISIJ8S4.main(1)",
       "children" : [ {
         "name" : "logInTest",
-        "uid" : "7ed33daf6266d34",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "uid" : "c5cb6d877e51b8aa",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
         "status" : "passed",
         "time" : {
-          "start" : 1646579018999,
-          "stop" : 1646579020907,
-          "duration" : 1908
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "openNewAccountTest",
-        "uid" : "fa12ceed976de177",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1646579021011,
-          "stop" : 1646579023506,
-          "duration" : 2495
+          "start" : 1646586147531,
+          "stop" : 1646586148890,
+          "duration" : 1359
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +24,13 @@
         "parameters" : [ ]
       }, {
         "name" : "findTransactionTest",
-        "uid" : "2d6cde312282638f",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "uid" : "aea149a900c310d7",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
         "status" : "passed",
         "time" : {
-          "start" : 1646579030173,
-          "stop" : 1646579033794,
-          "duration" : 3621
+          "start" : 1646586158158,
+          "stop" : 1646586162166,
+          "duration" : 4008
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +41,13 @@
         "parameters" : [ ]
       }, {
         "name" : "tranasferFundTest",
-        "uid" : "e612244edfca4c52",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "uid" : "68803a84dfd28e64",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
         "status" : "passed",
         "time" : {
-          "start" : 1646579023520,
-          "stop" : 1646579030164,
-          "duration" : 6644
+          "start" : 1646586151313,
+          "stop" : 1646586158147,
+          "duration" : 6834
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +58,30 @@
         "parameters" : [ ]
       }, {
         "name" : "registrationTest",
-        "uid" : "ab38ebe7e6fa6c14",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "uid" : "881b0b7af5cab5aa",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
         "status" : "passed",
         "time" : {
-          "start" : 1646579009424,
-          "stop" : 1646579018460,
-          "duration" : 9036
+          "start" : 1646586138519,
+          "stop" : 1646586147383,
+          "duration" : 8864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "openNewAccountTest",
+        "uid" : "b91cf0d7e35cec38",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646586148999,
+          "stop" : 1646586151306,
+          "duration" : 2307
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,13 +92,13 @@
         "parameters" : [ ]
       }, {
         "name" : "infoUpdateTest",
-        "uid" : "c13dbdd4d4906e28",
-        "parentUid" : "974e19796ba3dfb79d7c130cc054e9c8",
+        "uid" : "9940ed89c0b5ec11",
+        "parentUid" : "997e3259c892c0f52088b98eb4dae539",
         "status" : "passed",
         "time" : {
-          "start" : 1646579033807,
-          "stop" : 1646579038231,
-          "duration" : 4424
+          "start" : 1646586162177,
+          "stop" : 1646586166752,
+          "duration" : 4575
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,7 +108,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "974e19796ba3dfb79d7c130cc054e9c8"
+      "uid" : "997e3259c892c0f52088b98eb4dae539"
     } ],
     "uid" : "b8eb09c4bcd4fa6fd0d2252761e3be86"
   } ]

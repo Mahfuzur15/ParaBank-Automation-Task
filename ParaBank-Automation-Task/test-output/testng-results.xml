@@ -2,39 +2,43 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-06T21:03:29 BDT" name="Default suite" finished-at="2022-03-06T21:03:58 BDT" duration-ms="29205">
+  <suite started-at="2022-03-06T23:02:18 BDT" name="Default suite" finished-at="2022-03-06T23:02:46 BDT" duration-ms="28396">
     <groups>
     </groups>
-    <test started-at="2022-03-06T21:03:29 BDT" name="Default test" finished-at="2022-03-06T21:03:58 BDT" duration-ms="29205">
+    <test started-at="2022-03-06T23:02:18 BDT" name="Default test" finished-at="2022-03-06T23:02:46 BDT" duration-ms="28396">
       <class name="test.TC001_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:07 BDT" name="setup" finished-at="2022-03-06T21:03:29 BDT" duration-ms="21468" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:01:55 BDT" name="setup" finished-at="2022-03-06T23:02:18 BDT" duration-ms="22760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registrationTest()[pri:0, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:29 BDT" name="registrationTest" finished-at="2022-03-06T21:03:38 BDT" duration-ms="9246" status="PASS">
+        <test-method signature="registrationTest()[pri:0, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:18 BDT" name="registrationTest" finished-at="2022-03-06T23:02:27 BDT" duration-ms="8924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method signature="logInTest()[pri:1, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:38 BDT" name="logInTest" finished-at="2022-03-06T21:03:40 BDT" duration-ms="1922" status="PASS">
+        <test-method signature="logInTest()[pri:1, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:27 BDT" name="logInTest" finished-at="2022-03-06T23:02:28 BDT" duration-ms="1366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method signature="openNewAccountTest()[pri:2, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:40 BDT" name="openNewAccountTest" finished-at="2022-03-06T21:03:43 BDT" duration-ms="2506" status="PASS">
+        <test-method signature="openNewAccountTest()[pri:2, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:28 BDT" name="openNewAccountTest" finished-at="2022-03-06T23:02:31 BDT" duration-ms="2328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNewAccountTest -->
-        <test-method signature="tranasferFundTest()[pri:3, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:43 BDT" name="tranasferFundTest" finished-at="2022-03-06T21:03:50 BDT" duration-ms="6651" status="PASS">
+        <test-method signature="tranasferFundTest()[pri:3, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:31 BDT" name="tranasferFundTest" finished-at="2022-03-06T23:02:38 BDT" duration-ms="6837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tranasferFundTest -->
-        <test-method signature="findTransactionTest()[pri:4, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:50 BDT" name="findTransactionTest" finished-at="2022-03-06T21:03:53 BDT" duration-ms="3625" status="PASS">
+        <test-method signature="findTransactionTest()[pri:4, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:38 BDT" name="findTransactionTest" finished-at="2022-03-06T23:02:42 BDT" duration-ms="4015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findTransactionTest -->
-        <test-method signature="infoUpdateTest()[pri:5, instance:test.TC001_Test@7c37508a]" started-at="2022-03-06T21:03:53 BDT" name="infoUpdateTest" finished-at="2022-03-06T21:03:58 BDT" duration-ms="4427" status="PASS">
+        <test-method signature="infoUpdateTest()[pri:5, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:42 BDT" name="infoUpdateTest" finished-at="2022-03-06T23:02:46 BDT" duration-ms="4577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- infoUpdateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC001_Test@247310d0]" started-at="2022-03-06T23:02:46 BDT" name="tearDown" finished-at="2022-03-06T23:02:47 BDT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.TC001_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

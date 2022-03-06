@@ -35,14 +35,14 @@ public class TC001_Test extends BaseDriver {
 		// First Account Registration
 		homePage.registerclick();
 		registerPage.registerAccount("Mahfuz", "Tushar", "College road, Chowmuhani", "Noakhali", "Chittagong", "1206",
-				"0161179", "454-354", "tush68", "12345", "12345");
+				"0161179", "454-354", "tush66", "12345", "12345");
 
 		// Second Account Registration
 		homePage.registerclick();
 		// Registration Page Title Get
 		actual = homePage.getTitle();
 		registerPage.registerAccount("Arif", "Rahman", "Doctor para, Chowmuhani", "Munsigonj", "Dhaka", "1208",
-				"0192365", "33-564", "ariff68", "1234", "1234");
+				"0192365", "33-564", "arif66", "1234", "1234");
 
 		expected = "ParaBank | Register for Free Online Account Access";
 		titleMessage = "Homepage Title Assertion Failed";

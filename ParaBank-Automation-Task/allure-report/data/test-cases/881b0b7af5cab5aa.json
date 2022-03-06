@@ -1,12 +1,12 @@
 {
-  "uid" : "7ed33daf6266d34",
-  "name" : "logInTest",
-  "fullName" : "test.TC001_Test.logInTest",
-  "historyId" : "bda7028562354834c9832b47b63ed6c9",
+  "uid" : "881b0b7af5cab5aa",
+  "name" : "registrationTest",
+  "fullName" : "test.TC001_Test.registrationTest",
+  "historyId" : "56007e360945b9151ee9e8f2637603fc",
   "time" : {
-    "start" : 1646579018999,
-    "stop" : 1646579020907,
-    "duration" : 1908
+    "start" : 1646586138519,
+    "stop" : 1646586147383,
+    "duration" : 8864
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,21 +18,37 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1646578987581,
-      "stop" : 1646579009032,
-      "duration" : 21451
+      "start" : 1646586115611,
+      "stop" : 1646586138359,
+      "duration" : 22748
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646586166832,
+      "stop" : 1646586167339,
+      "duration" : 507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
   "labels" : [ {
     "name" : "package",
     "value" : "test.TC001_Test"
@@ -41,7 +57,7 @@
     "value" : "test.TC001_Test"
   }, {
     "name" : "testMethod",
-    "value" : "logInTest"
+    "value" : "registrationTest"
   }, {
     "name" : "parentSuite",
     "value" : "Default suite"
@@ -56,7 +72,7 @@
     "value" : "DESKTOP-ISIJ8S4"
   }, {
     "name" : "thread",
-    "value" : "16672@DESKTOP-ISIJ8S4.main(1)"
+    "value" : "8760@DESKTOP-ISIJ8S4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -77,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7ed33daf6266d34.json",
+  "source" : "881b0b7af5cab5aa.json",
   "parameterValues" : [ ]
 }
