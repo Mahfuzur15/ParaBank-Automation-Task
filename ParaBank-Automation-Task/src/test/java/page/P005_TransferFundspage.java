@@ -12,10 +12,7 @@ public class P005_TransferFundspage extends CommonMethods {
 	 public static By toAccountSelect = By.xpath("//select[@id='toAccountId']");
 	 public static By submitAccount = By.xpath("//input[@value='Transfer']");
 	 
-	 
-	 
-	 
-		
+	 		
 //		Tranasfer Funds
 		
 		public void clickTranasferFund () {
@@ -40,5 +37,4 @@ public class P005_TransferFundspage extends CommonMethods {
 			driver.findElement(submitAccount).click();
 		}
 		
-
 }
